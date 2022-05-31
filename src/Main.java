@@ -7,7 +7,8 @@ public class Main {
             bonus = paymentInvoice / 100;
         } else {
             bonus = 0;
-        } int balance = personalAccount + paymentInvoice + bonus;
+        }
+        int balance = personalAccount + paymentInvoice + bonus;
         System.out.println("Здравствуйте, спасибо за ваш платеж. Ваш баланс: " + balance + " руб. Ваш бонус: " + bonus + " руб.");
     }
 }
